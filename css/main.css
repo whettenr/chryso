@@ -1,0 +1,159 @@
+html, button, input, select, textarea { font-family: 'Quicksand', sans-serif; }
+body {
+  margin: 0; 
+  font-family: 'Quicksand', sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+  background-color: rgba(229,193,91, 1);
+  border:none;
+}
+
+.logo{
+	width: 100%;
+	max-width: 786px;
+}
+
+.jumbotron {
+  color: #fff;
+	background-color: #E5C15B;
+}
+
+.nav li a:hover{
+	background-color: #f8f8f8 !important;
+}
+.active {
+  background-color: #fff !important;
+}
+
+@media (max-width: 768px) {
+  .smaller {
+    font-size: 110% !important;
+  }
+}
+
+/* =======================================================================
+Contact
+========================================================================== */
+.section-padding { padding: 45px 0 50px }
+.contact-details { margin: 70px 0; }
+.contact-details h2 { font-size: 20px;}
+.contact-details h2 span { 
+  font-weight:bold; 
+  display: block; 
+  color: #B08A37; 
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
+  font-size: 14px; 
+  margin-top: 15px; 
+  text-decoration: underline;
+}
+
+.contact-wrap { position: relative; }
+.dark-box { background: #B08A37; -webkit-box-shadow: 0px 3px 0px 0px #B08A37; -moz-box-shadow: 0px 3px 0px 0px #B08A37; box-shadow: 0px 3px 0px 0px #B08A37; }
+.light-box { border-radius: 4px; margin-bottom: 30px; background-color: rgba(229,193,91, .5); -webkit-box-shadow: 0px 3px 0px 0px #B08A37; -moz-box-shadow: 0px 3px 0px 0px #f0f2f4; box-shadow: 0px 3px 0px 0px #f0f2f4; padding: 20px 0; }
+.light-box:hover, .light-box:focus { -webkit-box-shadow: 0px 3px 0px 0px #B08A37; -moz-box-shadow: 0px 3px 0px 0px #B08A37; box-shadow: 0px 3px 0px 0px #B08A37; }
+.box-hover { transition: all 500ms ease-in-out; -webkit-transition: all 500ms ease-in-out; -moz-transition: all 500ms ease-in-out; -o-transition: all 500ms ease-in-out; }
+.box-hover:hover, .box-hover:focus { transform: translate(0, -15px); -webkit-transform: translate(0, -15px); -ms-transform: translate(0, -15px); }
+.map{
+  margin-top: -100px;
+  padding-bottom: 60px;
+}
+/* ================================================================
+About
+=================================================================== */
+.team-name {
+	padding: 15px 0;
+	border-bottom: 1px solid #B08A37;
+	margin-bottom: 15px;
+	font-size: 18px;
+  font-weight: bolder;
+}
+
+.team-name span {
+	font-size: 18px;
+	font-weight: bolder;
+	color: #B08A37;
+}
+
+.team-about p {
+	padding: 0 0 15px 0;
+	border-bottom: 1px solid #B08A37;
+	margin-bottom: 15px;
+}
+
+/* ================================================================
+forms page
+=================================================================== */
+.forms a{
+	font-size: 15px;
+}
+
+.forms span{
+  font-size: 25px !important;
+}
+
+dl {
+  text-align: left;
+  margin-left: 20px;
+}
+
+/*dd {
+  margin-left:50px;
+  margin-top: -20px;
+}*/
+
+.forms img {
+  margin-top: 13px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  height: 50px;
+  width: 50px;
+}
+
+/* ==========================================================================
+Features
+========================================================================== */
+.features-wrapper, { margin: 70px 0 0; }
+.shadow { text-shadow: 2px 2px 5px #800000;}
+.icon { 
+  height: 175px; 
+  width: 175px; 
+  line-height: 175px; 
+  max-width: 100%; 
+  background: #E5C15B; 
+  border-radius: 50%; -o-border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; 
+  display: block; 
+  color: #fff; 
+  font-size: 55px; 
+  text-align: center; 
+  vertical-align: middle; 
+  position: relative; 
+  margin: 0 auto 50px; 
+}
+
+/* ==========================================================================
+Footer
+========================================================================== */
+.credit a { color: #E5C100 }
+.credit a:hover { font-weight: bold; color: #fff; }
+footer { background-color:rgba(229,193,91, .8); padding: 30px 0 20px; }
+footer p { color: #fff }
+
+
+/* COLORS */
+/* 
+   #E5C15B rgb(229,193,91) - dark gold
+   #7A4012 rgb(176,138,55) - brown
+   #F22222 -red
+   #F2BB16 -orange
+   #EBF227 -yellow
+   #8CF227 -light green
+   #AE49F2 -purple
+*/
+
+
+ 
