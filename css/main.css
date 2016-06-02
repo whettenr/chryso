@@ -1,7 +1,7 @@
 html, button, input, select, textarea { font-family: 'Quicksand', sans-serif; }
 body {
   margin: 0; 
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Palanquin Dark', sans-serif;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -25,7 +25,7 @@ body {
 .nav li a:hover{
 	background-color: #f8f8f8 !important;
 }
-.active {
+.nav li a .active{
   background-color: #fff !important;
 }
 
@@ -54,7 +54,7 @@ Contact
 
 .contact-wrap { position: relative; }
 .dark-box { background: #B08A37; -webkit-box-shadow: 0px 3px 0px 0px #B08A37; -moz-box-shadow: 0px 3px 0px 0px #B08A37; box-shadow: 0px 3px 0px 0px #B08A37; }
-.light-box { border-radius: 4px; margin-bottom: 30px; background-color: rgba(229,193,91, .5); -webkit-box-shadow: 0px 3px 0px 0px #B08A37; -moz-box-shadow: 0px 3px 0px 0px #f0f2f4; box-shadow: 0px 3px 0px 0px #f0f2f4; padding: 20px 0; }
+.light-box { border-radius: 4px; margin-bottom: 30px; background-color: rgba(229,193,91, 1); -webkit-box-shadow: 0px 3px 0px 0px #B08A37; -moz-box-shadow: 0px 3px 0px 0px #f0f2f4; box-shadow: 0px 3px 0px 0px #f0f2f4; padding: 20px 0; }
 .light-box:hover, .light-box:focus { -webkit-box-shadow: 0px 3px 0px 0px #B08A37; -moz-box-shadow: 0px 3px 0px 0px #B08A37; box-shadow: 0px 3px 0px 0px #B08A37; }
 .box-hover { transition: all 500ms ease-in-out; -webkit-transition: all 500ms ease-in-out; -moz-transition: all 500ms ease-in-out; -o-transition: all 500ms ease-in-out; }
 .box-hover:hover, .box-hover:focus { transform: translate(0, -15px); -webkit-transform: translate(0, -15px); -ms-transform: translate(0, -15px); }
@@ -70,7 +70,7 @@ About
 	border-bottom: 1px solid #B08A37;
 	margin-bottom: 15px;
 	font-size: 18px;
-  font-weight: bolder;
+  	font-weight: bolder;
 }
 
 .team-name span {
@@ -86,7 +86,7 @@ About
 }
 
 /* ================================================================
-forms page
+publications page
 =================================================================== */
 .forms a{
 	font-size: 15px;
@@ -115,7 +115,7 @@ dl {
 }
 
 /* ==========================================================================
-Features
+services
 ========================================================================== */
 .features-wrapper, { margin: 70px 0 0; }
 .shadow { text-shadow: 2px 2px 5px #800000;}
@@ -138,9 +138,9 @@ Features
 /* ==========================================================================
 Footer
 ========================================================================== */
-.credit a { color: #E5C100 }
+.credit a { color: #232323 }
 .credit a:hover { font-weight: bold; color: #fff; }
-footer { background-color:rgba(229,193,91, .8); padding: 30px 0 20px; }
+footer { background-color:#E5C15B; padding: 30px 0 20px; }
 footer p { color: #fff }
 
 
