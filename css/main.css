@@ -139,9 +139,9 @@ services
 Footer
 ========================================================================== */
 .credit a { color: #232323 }
-.credit a:hover { font-weight: bold; color: #fff; }
+.credit a:hover { font-weight: bold; color: #ddd; }
 footer { background-color:#E5C15B; padding: 30px 0 20px; }
-footer p { color: #fff }
+footer p { color: #ddd;}
 
 
 /* COLORS */
